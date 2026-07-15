@@ -1,36 +1,53 @@
 {
-  "name": "Windows XP Luna",
-  "description": "El clásico estilo azul y brillante de Windows XP adaptado para tu celular.",
-  "author": "TuUsuario",
+  "name": "Exponent XP Mobile",
+  "description": "Port oficial basado en Exponent de Saltssaumure con fondo Bliss integrado. La nostalgia de Windows XP.",
+  "authors": [
+    {
+      "name": "sillyjoabli",
+      "id": "1439639816659533894"
+    }
+  ],
   "spec": 2,
   "semanticColors": {
     "BACKGROUND_PRIMARY": ["#FFFFFF", "#FFFFFF"],
-    "BACKGROUND_SECONDARY": ["#ECE9D8", "#ECE9D8"],
-    "BACKGROUND_SECONDARY_ALT": ["#F1EFE2", "#F1EFE2"],
+    "BACKGROUND_SECONDARY": ["#F0EFED", "#F0EFED"],
+    "BACKGROUND_SECONDARY_ALT": ["#EBE8D7", "#EBE8D7"],
     "BACKGROUND_TERTIARY": ["#D6D2C4", "#D6D2C4"],
     "BACKGROUND_FLOATING": ["#FFFFFF", "#FFFFFF"],
     "BACKGROUND_MOBILE_PRIMARY": ["#FFFFFF", "#FFFFFF"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#ECE9D8", "#ECE9D8"],
-    "BACKGROUND_ACCENT": ["#245DD7", "#245DD7"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#F0EFED", "#F0EFED"],
+    "BACKGROUND_ACCENT": ["#1665CA", "#1665CA"],
+    
+    "BACKGROUND_MENTION": ["#FF99001a", "#FF99001a"],
+    "BACKGROUND_MENTION_HOVER": ["#FF990026", "#FF990026"],
     
     "TEXT_NORMAL": ["#000000", "#000000"],
-    "TEXT_MUTED": ["#5A5A5A", "#5A5A5A"],
-    "TEXT_LINK": ["#0066CC", "#0066CC"],
-    "TEXT_BRAND": ["#245DD7", "#245DD7"],
+    "TEXT_MUTED": ["#4A4A4A", "#4A4A4A"],
+    "TEXT_LINK": ["#105CB6", "#105CB6"],
+    "TEXT_BRAND": ["#1665CA", "#1665CA"],
     
-    "INTERACTIVE_NORMAL": ["#4D4D4D", "#4D4D4D"],
-    "INTERACTIVE_HOVER": ["#245DD7", "#245DD7"],
+    "INTERACTIVE_NORMAL": ["#000000", "#000000"],
+    "INTERACTIVE_HOVER": ["#1665CA", "#1665CA"],
     "INTERACTIVE_ACTIVE": ["#388E3C", "#388E3C"],
     
-    "BACKGROUND_MENTION": ["#FF99001a", "#FF99001a"]
+    "DIVIDER": ["#D0CCBA", "#D0CCBA"],
+    "KEYBIND_MODIFIER": ["#EBE8D7", "#EBE8D7"]
   },
   "rawColors": {
     "BRAND_260": "#316AC5",
-    "BRAND_360": "#245DD7",
-    "BRAND_500": "#245DD7",
-    "BRAND_600": "#1D4FA7",
+    "BRAND_360": "#1665CA",
+    "BRAND_500": "#1665CA",
+    "BRAND_600": "#104996",
     "STATUS_GREEN": "#388E3C",
     "STATUS_RED": "#E76022",
     "PLUGINS_VERSION": "1"
+  },
+  "background": {
+    "blur": 0.2,
+    "url": "https://raw.githubusercontent.com/imjoabli/winxptheme/main/winxp_bg.png"
+  },
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Exponent XP Mobile",
-  "description": "Port oficial basado en Exponent de Saltssaumure con fondo Bliss integrado. La nostalgia de Windows XP.",
+  "name": "Exponent XP Dark Mobile",
+  "description": "Port de Windows XP optimizado para legibilidad con fondo Bliss nocturno.",
   "authors": [
     {
       "name": "sillyjoabli",
@@ -9,41 +9,46 @@
   ],
   "spec": 2,
   "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#FFFFFF", "#FFFFFF"],
-    "BACKGROUND_SECONDARY": ["#F0EFED", "#F0EFED"],
-    "BACKGROUND_SECONDARY_ALT": ["#EBE8D7", "#EBE8D7"],
-    "BACKGROUND_TERTIARY": ["#D6D2C4", "#D6D2C4"],
-    "BACKGROUND_FLOATING": ["#FFFFFF", "#FFFFFF"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#FFFFFF", "#FFFFFF"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#F0EFED", "#F0EFED"],
-    "BACKGROUND_ACCENT": ["#1665CA", "#1665CA"],
+    "HEADER_PRIMARY": ["#FFFFFF"],
+    "HEADER_SECONDARY": ["#D6D2C4"],
+    "TEXT_NORMAL": ["#E2E2E2"],
+    "TEXT_MUTED": ["#A1A095"],
+    "INTERACTIVE_NORMAL": ["#D6D2C4"],
+    "INTERACTIVE_HOVER": ["#316AC5"],
+    "INTERACTIVE_ACTIVE": ["#FFFFFF"],
+    "INTERACTIVE_MUTED": ["#808080"],
     
-    "BACKGROUND_MENTION": ["#FF99001a", "#FF99001a"],
-    "BACKGROUND_MENTION_HOVER": ["#FF990026", "#FF990026"],
+    "BACKGROUND_PRIMARY": ["#0F141D00"],
+    "BACKGROUND_SECONDARY": ["#1C222D99"],
+    "BACKGROUND_SECONDARY_ALT": ["#141923CC"],
+    "BACKGROUND_TERTIARY": ["#0E111A"],
+    "BACKGROUND_FLOATING": ["#1A2230"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#0E111A00"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#141923F0"],
+    "BACKGROUND_ACCENT": ["#245DD7"],
     
-    "TEXT_NORMAL": ["#000000", "#000000"],
-    "TEXT_MUTED": ["#4A4A4A", "#4A4A4A"],
-    "TEXT_LINK": ["#105CB6", "#105CB6"],
-    "TEXT_BRAND": ["#1665CA", "#1665CA"],
+    "CHAT_BACKGROUND": ["#0E111A00"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#1C222DCC"],
+    "BACKGROUND_MESSAGE_HOVER": ["#245DD722"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#245DD766"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#245DD788"],
+    "BACKGROUND_MODIFIER_HOVER": ["#245DD744"],
     
-    "INTERACTIVE_NORMAL": ["#000000", "#000000"],
-    "INTERACTIVE_HOVER": ["#1665CA", "#1665CA"],
-    "INTERACTIVE_ACTIVE": ["#388E3C", "#388E3C"],
-    
-    "DIVIDER": ["#D0CCBA", "#D0CCBA"],
-    "KEYBIND_MODIFIER": ["#EBE8D7", "#EBE8D7"]
+    "TEXT_LINK": ["#316AC5"],
+    "CHANNEL_ICON": ["#D6D2C4"],
+    "CHANNELS_DEFAULT": ["#A1A095"]
   },
   "rawColors": {
+    "PRIMARY_500": "#0E111A",
     "BRAND_260": "#316AC5",
-    "BRAND_360": "#1665CA",
-    "BRAND_500": "#1665CA",
-    "BRAND_600": "#104996",
+    "BRAND_360": "#245DD7",
+    "BRAND_500": "#245DD7",
     "STATUS_GREEN": "#388E3C",
     "STATUS_RED": "#E76022",
     "PLUGINS_VERSION": "1"
   },
   "background": {
-    "blur": 0.2,
+    "blur": 0.1,
     "url": "https://raw.githubusercontent.com/imjoabli/winxptheme/main/winxp_bg.png"
   },
   "plus": {
